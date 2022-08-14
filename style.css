@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: lightblue;
+    background-color: white;
+}
+
+#sketch {
+    float: right;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+canvas {
+    border: 6px ridge darkgrey;
+    border-radius: 20px;
+    animation-name: color_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+
+@keyframes color_animation {
+    from {box-shadow: 1px 1px 40px black;}
+    to {box-shadow: 1px 1px 40px white;}
+}
